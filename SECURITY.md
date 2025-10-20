@@ -2,42 +2,7 @@
 
 This template provides comprehensive security guidance for any new project. Choose and customize the sections relevant to your technology stack and requirements.
 
-## 🚀 Quick Start for New Projects
-
-### 1. Project Setup
-- [ ] Copy this template to your new project repository
-- [ ] Remove irrelevant cheat sheets from `/security/` folder based on your tech stack
-- [ ] Update this file with your project-specific details
-- [ ] Configure security scanning tools for your technology
-
-### 2. Choose Your Security Baseline
-Select the security controls relevant to your project type:
-
-**Web Application:**
-- Authentication & Session Management
-- XSS & Injection Prevention  
-- CSRF Protection
-- Content Security Policy
-
-**API Development:**
-- Input Validation & Output Encoding
-- Rate Limiting & DoS Protection
-- Authentication (JWT/OAuth2)
-- API Security Headers
-
-**Mobile Application:**
-- Secure Data Storage
-- Certificate Pinning
-- Biometric Authentication
-- App Transport Security
-
-**Cloud/DevOps:**
-- Secrets Management
-- Container Security
-- CI/CD Pipeline Security
-- Infrastructure as Code Security
-
-### 3. Security Scanning Tools Setup
+### Security Scanning Tools Setup
 
 Configure these tools based on your technology stack:
 
