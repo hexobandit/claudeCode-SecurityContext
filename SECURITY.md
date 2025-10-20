@@ -2,7 +2,7 @@
 
 This template provides comprehensive security guidance for any new project. Choose and customize the sections relevant to your technology stack and requirements.
 
-### Security Scanning Tools Setup
+## Examples of Security Scanning Tools Setup
 
 Configure these tools based on your technology stack:
 
@@ -31,6 +31,7 @@ mvn dependency-check:check   # Dependency vulnerabilities
 git-secrets --scan          # Secret scanning
 truffleHog --regex .        # Secret detection
 checkov -d ./terraform      # Infrastructure scanning
+trivy                       # SAST scanning
 ```
 
 ## 📋 Priority-Based Security Controls
@@ -276,29 +277,6 @@ checkov -d ./terraform      # Infrastructure scanning
 
 ---
 
-## 🔄 Security Review Schedule
-
-### Daily
-- [ ] Check for security alerts in dependencies
-- [ ] Review recent commits for secrets
-
-### Weekly
-- [ ] Run dependency vulnerability scan
-- [ ] Review security logs
-- [ ] Check for framework security updates
-
-### Monthly
-- [ ] Full security checklist review
-- [ ] Update dependencies
-- [ ] Security training/awareness
-
-### Quarterly
-- [ ] Penetration testing
-- [ ] Threat model review
-- [ ] Security architecture review
-- [ ] Update this checklist with new OWASP guidelines
-
----
 
 ## 📌 Implementation Priority Matrix
 
@@ -328,44 +306,6 @@ checkov -d ./terraform      # Infrastructure scanning
 - [ ] How will we detect misuse?
 - [ ] Are there rate limits needed?
 - [ ] Does this feature expose new API endpoints?
-
-## 🚨 Incident Response Plan
-
-### Immediate Response (0-1 hour)
-1. **Contain** - Isolate affected systems
-2. **Assess** - Determine scope and impact  
-3. **Communicate** - Notify stakeholders
-4. **Document** - Log all actions taken
-
-### Investigation & Recovery (1-7 days)
-1. **Root Cause Analysis** - Identify how breach occurred
-2. **Patch/Fix** - Implement security fixes
-3. **Monitor** - Watch for continued attacks
-4. **Lessons Learned** - Update security measures
-
-## 📞 Security Contacts (Update for Your Project)
-
-- **Security Team**: security@yourcompany.com
-- **Incident Response**: incident@yourcompany.com  
-- **External Researchers**: security-reports@yourcompany.com
-
-## 🔄 Regular Security Tasks
-
-### Daily
-- [ ] Monitor security alerts and dependency vulnerabilities
-- [ ] Check for failed authentication attempts
-
-### Weekly  
-- [ ] Review access logs and update dependencies
-- [ ] Run automated security scans
-
-### Monthly
-- [ ] Security training and policy review
-- [ ] Test backup and recovery procedures
-
-### Quarterly
-- [ ] Security audit/penetration testing
-- [ ] Update threat model and incident response plan
 
 ---
 
