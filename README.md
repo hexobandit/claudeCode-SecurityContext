@@ -7,8 +7,8 @@ A security boilerplate with 92 OWASP cheat sheets and practical implementation g
 
 1. **Copy this template** to your new project
 2. **Review `SECURITY.md`** for priority-based security controls
-3. **Remove irrelevant cheat sheets** from `/security/` folder based on your tech stack
-4. **Configure security scanning** for your technology (commands included)
+3. **(optional) Remove irrelevant cheat sheets** from `/security/` folder based on your tech stack
+4. **(optional) Configure security scanning** for your technology
 
 ## What's Included
 
